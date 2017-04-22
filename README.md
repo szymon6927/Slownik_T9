@@ -1,4 +1,4 @@
-#Słownik T9
+# Słownik T9
 
 Większość telefonów pozwala wprowadzać tekst przy pomocy słownika T9. Wprowadzanie polega na wpisywaniu cyfr przyporządkowanym literom. Słownik automatycznie przekształca ciąg cyfr na wyraz. Słownik potrafi także domyślać się dalszego ciągu słowa - na podstawie początkowego ciągu cyfr próbuje domyślić się, jaka będzie końcówka. Kodowanie to jest niestety niejednoznaczne (np. i mam i nam mają kody 626). Przyporządkowanie cyfr do liter jest następujące: abc = 2, def = 3, ghi = 4, jkl = 5, mno = 6, pqrs = 7, tuv = 8, wxyz = 9. Zatem np. wyraz pies ma kod T9 równy 7437. Napisz program, który dla zadaniego początkowego fragmentu kodu T9 znajdzie wszystkie pasujące do niego słowa ze słownika.
 Wejście
@@ -9,7 +9,7 @@ Wyjście
 Dla każdego zapytania, na wyjściu należy wypisać wszystkie pasujące słowa, w kolejności leksykograficznej ich kodów T9 (kod 123 jest zatem mniejszy niż kod 33). Słowa o takim samym kodzie powinny być uporządkowane leksykograficznie i rozdzielone spacją. Jeżeli do zapytania nie pasują żadne wyrazy, należy wypisać znak - (minus). Odpowiedź na każde zapytanie powinien kończyć znak nowej linii.
 Przykład
 
-##Wejście:
+## Wejście:
 10<br />
 ccc<br />
 bbb<br />
@@ -33,7 +33,7 @@ paliwo<br />
 7437<br />
 744<br />
 
-##Wyjście:
+## Wyjście:
 aaa aba abc bbb ccc<br />
 aaa aba abc bbb ccc<br />
 aaa aba abc bbb ccc<br />
